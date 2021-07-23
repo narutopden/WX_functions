@@ -1,0 +1,28 @@
+server:
+  port: 8082
+#===============================wechat config properties===============
+wxpay:
+  appid: wx6nr75l4m7w87bj3k
+  appsecret: 5pp5c06o6irb1gizxea0qerwo9lumda9
+
+wxopen:
+  appid: wxab8bba444894d7d5
+  #wx025575eac69a2d5b
+  appsecret: ce3ee1eed4bb7eeeeddd8e7730b4afa4
+  #f5b6730c592ac15b8b1a5aeb8948a9f3
+  redirect_url: http://tbkuvk.natappfree.cc/api/v1/wechat/callback
+  #http://16webtest.ngrok.xiaomiqiu.cn
+
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/wechatPay?useUnicode=true&characterEncoding=utf-8
+    username: root
+    password: root
+    type: com.alibaba.druid.pool.DruidDataSource
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
