@@ -1,0 +1,86 @@
+2021-07-27 12:46:02.530 INFO [restartedMain]com.payment.demo.DemoApplication.logStarting:55 -Starting DemoApplication using Java 1.8.0_221 on Topdens-MacBook-Air.local with PID 28070 (/Users/itachi/Desktop/demo-springboot/wechat payment/target/classes started by itachi in /Users/itachi/Desktop/demo-springboot/wechat payment)
+2021-07-27 12:46:02.540 INFO [restartedMain]com.payment.demo.DemoApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-07-27 12:46:02.871 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-27 12:46:02.872 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-27 12:46:05.215 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-27 12:46:05.222 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-27 12:46:05.304 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 28 ms. Found 0 Redis repository interfaces.
+2021-07-27 12:46:06.954 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8082 (http)
+2021-07-27 12:46:06.986 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-27 12:46:06.988 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-07-27 12:46:06.989 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 12:46:07.168 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-07-27 12:46:07.169 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 4294 ms
+2021-07-27 12:46:11.318 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-07-27 12:46:11.392 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2021-07-27 12:46:11.457 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-27 12:46:11.517 INFO [restartedMain]com.payment.demo.DemoApplication.logStarted:61 -Started DemoApplication in 11.317 seconds (JVM running for 13.78)
+2021-07-27 12:46:58.324 INFO [http-nio-8082-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 12:46:58.324 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-07-27 12:46:58.325 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-07-27 12:47:45.080 INFO [restartedMain]com.payment.demo.DemoApplication.logStarting:55 -Starting DemoApplication using Java 1.8.0_221 on Topdens-MacBook-Air.local with PID 28108 (/Users/itachi/Desktop/demo-springboot/wechat payment/target/classes started by itachi in /Users/itachi/Desktop/demo-springboot/wechat payment)
+2021-07-27 12:47:45.087 INFO [restartedMain]com.payment.demo.DemoApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-07-27 12:47:45.243 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-27 12:47:45.244 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-27 12:47:46.979 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-27 12:47:46.983 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-27 12:47:47.032 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 21 ms. Found 0 Redis repository interfaces.
+2021-07-27 12:47:48.503 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8082 (http)
+2021-07-27 12:47:48.523 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-27 12:47:48.524 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-07-27 12:47:48.525 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 12:47:48.632 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-07-27 12:47:48.633 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 3387 ms
+2021-07-27 12:47:50.774 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-07-27 12:47:50.808 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2021-07-27 12:47:50.845 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-27 12:47:50.865 INFO [restartedMain]com.payment.demo.DemoApplication.logStarted:61 -Started DemoApplication in 7.287 seconds (JVM running for 11.986)
+2021-07-27 12:48:10.709 INFO [http-nio-8082-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 12:48:10.710 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-07-27 12:48:10.715 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 1 ms
+2021-07-27 12:49:11.439 INFO [http-nio-8082-exec-2]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-07-27 12:58:47.894 INFO [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-07-27 12:58:57.506 INFO [restartedMain]com.payment.demo.DemoApplication.logStarting:55 -Starting DemoApplication using Java 1.8.0_221 on Topdens-MacBook-Air.local with PID 28226 (/Users/itachi/Desktop/demo-springboot/wechat payment/target/classes started by itachi in /Users/itachi/Desktop/demo-springboot/wechat payment)
+2021-07-27 12:58:57.512 INFO [restartedMain]com.payment.demo.DemoApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-07-27 12:58:57.641 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-27 12:58:57.642 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-27 12:58:59.502 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-27 12:58:59.513 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-27 12:58:59.585 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 33 ms. Found 0 Redis repository interfaces.
+2021-07-27 12:59:01.180 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8082 (http)
+2021-07-27 12:59:01.203 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-27 12:59:01.205 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-07-27 12:59:01.205 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 12:59:01.329 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-07-27 12:59:01.329 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 3686 ms
+2021-07-27 12:59:03.849 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-07-27 12:59:03.888 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2021-07-27 12:59:03.960 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-27 12:59:03.977 INFO [restartedMain]com.payment.demo.DemoApplication.logStarted:61 -Started DemoApplication in 7.998 seconds (JVM running for 10.8)
+2021-07-27 12:59:15.747 INFO [http-nio-8082-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 12:59:15.748 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-07-27 12:59:15.752 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 3 ms
+2021-07-27 13:00:03.260 INFO [http-nio-8082-exec-2]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-07-27 13:02:59.103 INFO [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed
+2021-07-27 13:03:03.982 INFO [restartedMain]com.payment.demo.DemoApplication.logStarting:55 -Starting DemoApplication using Java 1.8.0_221 on Topdens-MacBook-Air.local with PID 28259 (/Users/itachi/Desktop/demo-springboot/wechat payment/target/classes started by itachi in /Users/itachi/Desktop/demo-springboot/wechat payment)
+2021-07-27 13:03:03.988 INFO [restartedMain]com.payment.demo.DemoApplication.logStartupProfileInfo:659 -No active profile set, falling back to default profiles: default
+2021-07-27 13:03:04.142 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-07-27 13:03:04.142 INFO [restartedMain]o.s.b.devtools.env.DevToolsPropertyDefaultsPostProcessor.logTo:255 -For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-07-27 13:03:05.435 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.multipleStoresDetected:262 -Multiple Spring Data modules found, entering strict repository configuration mode!
+2021-07-27 13:03:05.438 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:132 -Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2021-07-27 13:03:05.488 INFO [restartedMain]o.s.d.repository.config.RepositoryConfigurationDelegate.registerRepositoriesIn:201 -Finished Spring Data repository scanning in 24 ms. Found 0 Redis repository interfaces.
+2021-07-27 13:03:06.553 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.initialize:108 -Tomcat initialized with port(s): 8082 (http)
+2021-07-27 13:03:06.580 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Initializing ProtocolHandler ["http-nio-8082"]
+2021-07-27 13:03:06.584 INFO [restartedMain]org.apache.catalina.core.StandardService.log:173 -Starting service [Tomcat]
+2021-07-27 13:03:06.584 INFO [restartedMain]org.apache.catalina.core.StandardEngine.log:173 -Starting Servlet engine: [Apache Tomcat/9.0.48]
+2021-07-27 13:03:06.786 INFO [restartedMain]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring embedded WebApplicationContext
+2021-07-27 13:03:06.787 INFO [restartedMain]o.s.b.w.s.context.ServletWebServerApplicationContext.prepareWebApplicationContext:290 -Root WebApplicationContext: initialization completed in 2644 ms
+2021-07-27 13:03:08.870 INFO [restartedMain]o.s.boot.devtools.autoconfigure.OptionalLiveReloadServer.startServer:58 -LiveReload server is running on port 35729
+2021-07-27 13:03:08.897 INFO [restartedMain]org.apache.coyote.http11.Http11NioProtocol.log:173 -Starting ProtocolHandler ["http-nio-8082"]
+2021-07-27 13:03:08.926 INFO [restartedMain]o.s.boot.web.embedded.tomcat.TomcatWebServer.start:220 -Tomcat started on port(s): 8082 (http) with context path ''
+2021-07-27 13:03:08.941 INFO [restartedMain]com.payment.demo.DemoApplication.logStarted:61 -Started DemoApplication in 5.831 seconds (JVM running for 7.644)
+2021-07-27 13:03:18.799 INFO [http-nio-8082-exec-1]o.a.catalina.core.ContainerBase.[Tomcat].[localhost].[/].log:173 -Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-07-27 13:03:18.800 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:525 -Initializing Servlet 'dispatcherServlet'
+2021-07-27 13:03:18.803 INFO [http-nio-8082-exec-1]org.springframework.web.servlet.DispatcherServlet.initServletBean:547 -Completed initialization in 2 ms
+2021-07-27 13:03:19.633 INFO [http-nio-8082-exec-1]com.alibaba.druid.pool.DruidDataSource.init:930 -{dataSource-1} inited
+2021-07-27 13:03:42.224 INFO [SpringApplicationShutdownHook]com.alibaba.druid.pool.DruidDataSource.close:1825 -{dataSource-1} closed

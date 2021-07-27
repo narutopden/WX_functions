@@ -2,19 +2,28 @@ server:
   port: 8082
 #===============================wechat config properties===============
 wxpay:
-  appid: wx6nr75l4m7w87bj3k
-  appsecret: 5pp5c06o6irb1gizxea0qerwo9lumda9
+  appid: wxe07ff984935f2c17
+  appsecret: us2l3rwy8thzg35n6il5ttsvxdqd3kud
+  #================ we pay config==============
+
+  mer_id: 1603873418
+  key: us2l3rwy8thzg35n6il5ttsvxdqd3kud
+  callback: http://dku3tg.natappfree.cc/api/v1/wechat/order/notify
 
 wxopen:
-  appid: wxab8bba444894d7d5
+  appid: wx7acf15a8417469a6
+  #wxab8bba444894d7d5
   #wx025575eac69a2d5b
-  appsecret: ce3ee1eed4bb7eeeeddd8e7730b4afa4
+  appsecret: e0712e653f8b58261c0dfef8b463e5eb
+  #ce3ee1eed4bb7eeeeddd8e7730b4afa4
   #f5b6730c592ac15b8b1a5aeb8948a9f3
-  redirect_url: http://tbkuvk.natappfree.cc/api/v1/wechat/callback
+  redirect_url: http://swqkd3.natappfree.cc/api/v1/wechat/user/callback
   #http://16webtest.ngrok.xiaomiqiu.cn
 
 
 
+
+#=================================== DB config properties ======================
 spring:
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver

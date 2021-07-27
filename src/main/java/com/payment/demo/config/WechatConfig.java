@@ -30,13 +30,13 @@ public class WechatConfig {
     /**
      *  link for QR code fetching
      */
-//    private final String OPEN_QRCODE_URL= "https://open.weixin.qq.com/connect/qrconnect?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_login&state=ddd#wechat_redirect";
+   private final String OPEN_QRCODE_URL= "https://open.weixin.qq.com/connect/qrconnect?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_login&state=%s#wechat_redirect";
 
 
     /**
      * link for wechat web interface login not QR code
      */
-    private final String OPEN_QRCODE_URL= "https://open.weixin.qq.com/connect/oauth2/authorize?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_userinfo&state=%s#wechat_redirec";
+//    private final String OPEN_QRCODE_URL= "https://open.weixin.qq.com/connect/oauth2/authorize?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_userinfo&state=%s#wechat_redirec";
 
     /**
      * link to get access_token from wechat
@@ -50,7 +50,21 @@ public class WechatConfig {
     private final String OPEN_USERINFO_URL = "https://api.weixin.qq.com/sns/userinfo?access_token=%s&openid=%s";
 
 
+    /**
+     * merchant id
+     */
+    @Value("${wxpay.mer_id}")
+    private String mchId;
+
+
+    @Value("${wxpay.key}")
+    private String key;
+
+    @Value("${wxpay.callback}")
+    private String payCallbackUrl;
+
+    private final String UNIFIED_ORDER_URL = "https://api.mch.weixin.qq.com/pay/unifiedorder";
+
 
 
 }
-//https://open.weixin.qq.com/connect/qrconnect?appid=%s&redirect_uri=%s&response_type=code&scope=snsapi_login&state=ddd#wechat_redirect"
